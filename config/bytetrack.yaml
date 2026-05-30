@@ -1,0 +1,6 @@
+tracker_type: bytetrack
+track_high_thresh: 0.25   # Primary association: only high-conf detections
+track_low_thresh: 0.10    # Secondary pass: rescues occluded/partial targets
+new_track_thresh: 0.25    # Minimum confidence to initialise a new ID
+track_buffer: 30          # Frames to keep a lost tracklet before hard-delete
+match_thresh: 0.80        # IoU overlap needed for detection→tracklet match
